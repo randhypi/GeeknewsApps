@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1018693986816",
+    "project_id": "geeknewsapps",
+    "storage_bucket": "geeknewsapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018693986816:android:1155db1c5fd540562746e5",
+        "android_client_info": {
+          "package_name": "com.indev.geeknewsapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018693986816-eich2iuds4dvk1g4a43k105mspht0ck5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indev.geeknewsapps",
+            "certificate_hash": "0f08022ba5c77819a66120c89fdfd91f6fdc590a"
+          }
+        },
+        {
+          "client_id": "1018693986816-m3p8taermvuhsnhcsibgjv6vthtoel7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrlf_gpP2Ku7g3UhdGAAoEGrJ1BFDwdxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018693986816-m3p8taermvuhsnhcsibgjv6vthtoel7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

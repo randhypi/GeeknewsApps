@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBF1EFEF"
+    tools:context=".register.SuccessRegistActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="52dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_empty_profile"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        style="@style/TextView.sarala_020202"
+        android:text="Hello," />
+
+    <TextView
+        android:id="@+id/tv_fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/TextView.sarala_656565"
+        android:text="Justin Beiber" />
+
+    <TextView
+        android:id="@+id/tv_emailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/TextView.sarala_656565"
+        android:text="Justin299@gmail.com" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_successRegist"
+        style="@style/Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="60dp"
+        android:text="Buat akun saya!" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

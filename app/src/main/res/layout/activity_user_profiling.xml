@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF1EFEF"
+    android:orientation="vertical"
+    tools:context=".register.UserProfilingActivity">
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_rectangle_bg">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/const_Fill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ib_tech"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginBottom="170dp"
+                android:background="@drawable/shape_rectangle_tech"
+                android:drawableTop="@drawable/ic_techno"
+                android:paddingTop="10dp"
+                android:text="Teknologi"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/const_Fill"
+                app:layout_constraintEnd_toEndOf="@id/const_Fill"
+                app:layout_constraintStart_toStartOf="@id/const_Fill"
+                app:layout_constraintTop_toTopOf="@id/const_Fill" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ib_games"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="170dp"
+                android:background="@drawable/shape_rectangle_games"
+                android:drawableTop="@drawable/ic_games"
+                android:paddingTop="10dp"
+                android:text="Permainan"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/const_Fill"
+                app:layout_constraintEnd_toEndOf="@id/const_Fill"
+                app:layout_constraintStart_toStartOf="@id/const_Fill"
+                app:layout_constraintTop_toTopOf="@id/const_Fill" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ib_event"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_rectangle_event"
+                android:drawableTop="@drawable/ic_event"
+                android:paddingTop="10dp"
+                android:text="Peristiwa"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/const_Fill"
+                app:layout_constraintEnd_toEndOf="@id/const_Fill"
+                app:layout_constraintStart_toStartOf="@id/const_Fill"
+                app:layout_constraintTop_toTopOf="@id/const_Fill" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ib_movie"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_rectangle_movie"
+                android:drawableTop="@drawable/ic_movie"
+                android:paddingTop="10dp"
+                android:text="Film"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@id/const_Fill"
+                app:layout_constraintEnd_toEndOf="@id/const_Fill"
+                app:layout_constraintStart_toStartOf="@id/const_Fill"
+                app:layout_constraintTop_toTopOf="@id/const_Fill" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextView.sarala_020202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Pilih berita\nFavorit anda?"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

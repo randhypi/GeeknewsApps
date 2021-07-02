@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Geeknews</string>
+    <string name="email_address">Alamat Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="title_activity_main">Main Activity</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_trending">Populer</string>
+    <string name="title_category">Kategori</string>
+    <string name="title_search">Pencarian</string>
+    <string name="title_setting">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Halo fragment kosong</string>
+    <string name="save">Simpan</string>
+    <string name="send">Kirim</string>
+    <string name="set_description">BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan),
+        juga dikenal sebagai Bangtan Boys, adalah boy band Korea Selatan beranggotakan tujuh
+        orang yang mulai terbentuk pada tahun 2010 dan memulai debutnya pada tahun 2013 di bawah
+        Big Hit Entertainment.[4] Septet—terdiri dari RM, Jin, Suga, J-Hope, Jimin, V,
+        dan Jungkook—bersama menulis dan memproduksi banyak karya mereka sendiri.
+        Awalnya grup hip hop, gaya musik mereka telah berkembang untuk memasukkan
+        berbagai genre. Lirik mereka, yang sering berfokus pada komentar pribadi dan sosial,
+        menyentuh tema kesehatan mental, masalah remaja usia sekolah, kehilangan, perjalanan
+        menuju mencintai diri sendiri, dan individualisme. Karya mereka menampilkan referensi
+        ke sastra dan konsep psikologis dan termasuk alur cerita alam semesta alternatif.
+        Grup ini telah merilis beberapa album dan tampil di beberapa tur dunia.
+        Setelah memulai debutnya pada tahun 2013 dengan album single mereka 2 Cool 4 Skool,
+        BTS merilis album studio berbahasa Korea pertama mereka, Dark and Wild, dan album studio
+        berbahasa Jepang, Wake Up, pada tahun 2014. Grup ini merilis album studio Korea kedua,
+        Wings (2016). ), adalah yang pertama menjual satu juta kopi di Korea Selatan.
+        Pada tahun 2017, BTS memasuki pasar musik global, memimpin Korean Wave ke Amerika
+        Serikat dan memecahkan banyak rekor penjualan. Mereka menjadi grup Korea pertama
+        yang menerima sertifikasi dari Recording Industry Association of America (RIAA)
+        untuk singel mereka "Mic Drop", serta artis Korea pertama yang menduduki puncak
+        tangga lagu Billboard 200 AS dengan album studio mereka Love Yourself: Tear (2018).
+        BTS juga menjadi grup tercepat sejak The Beatles yang mendapatkan empat album nomor
+        satu AS, melakukannya dalam waktu kurang dari dua tahun.</string>
+
+    <!--validation text-->
+    <string name="fill_text">Silahkan isi di sini</string>
+    <string name="invalid_email">kesalahan email</string>
+    <string name="validasi_confirm_password">Password tidak sama</string>
+    <string name="fill_password">Password harus 6 s.d 16 karakter</string>
+
+    <!--content description-->
+    <string name="login">Masuk</string>
+    <string name="register">Pengguna baru? Daftar</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="title_login">Selamat datang,</string>
+    <string name="sub_title_login">Masuk untuk memulai!</string>
+    <string name="title_register">Buat Akun</string>
+    <string name="sub_title_register">Daftar untuk memulai!</string>
+    <string name="logo_geeknews">Logo Geeknews</string>
+    <string name="forget_password">Lupa Kata sandi?</string>
+    <string name="gmail">Masuk melalui gmail</string>
+    <string name="user">Pengguna</string>
+    <string name="news">Berita</string>
+    <string name="event">Peristiwa</string>
+    <string name="movie">Film</string>
+    <string name="games">Permainan</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="lewati">Lewati</string>
+    <string name="selanjutnya">Selanjutnya</string>
+
+</resources>
